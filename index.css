@@ -1,21 +1,46 @@
-h2{
-    color:fuchsia;;
+body{
+    margin: 0px;
+    padding: 0px;
 }
-@media (max-width:600px){
-    h2{
-        color:blue;
-    }
+
+nav{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    background-color: #A04BEC;
+    padding: 10px 20px;
 }
-.navigation{
-    background-color: brown;
-    display:flex;
-    Justify-content:space-between;
-    align-items:center;
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
 }
-#navs{
-    color:white;
+.logo div{
+    font-size: 24px;
+    font-weight: 800;
 }
 .menu_item{
-    display:flex;
-    gap:40px
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    margin-right: 12rem;;
+}
+
+.menu_item a{
+    color: white;
+    text-decoration: none;
+}
+.info{
+display:flex;
+font-size: 12px;
+align-items: center;
+color: white;
+}
+.callbutton{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
 }

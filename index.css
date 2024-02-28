@@ -100,3 +100,86 @@ color: white;
     background-repeat: no-repeat
 
 }
+
+/*circle*/
+.maincircle{
+    width: 70%;
+    padding: 10px 0px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 50px;
+}
+.Enroll{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Enroll_title{
+    font-size: 34px;
+    font-weight: 800;
+}
+.Enroll_desc{
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+    text-align: justify;
+}
+.Enroll_button{
+    height: max-content;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+}
+
+.circle{
+    position: relative;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDAF8E;
+}
+
+.two{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 225px;
+    width: 225px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8DC9FF;
+}
+
+.three{
+    position: absolute;
+    bottom: -70px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    height: 225px;
+    width: 225px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4FDFD8;
+}
